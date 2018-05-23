@@ -55,6 +55,9 @@ span {
     width: 600px;
     margin: 20 auto 20 auto;
   }
+  .header{
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px) {
@@ -63,6 +66,10 @@ span {
     float: none;
     width: 350px;
     margin: 20 auto 20 auto;
+  }
+
+  .header {
+    font-size: 15px;
   }
 
   img {
