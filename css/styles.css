@@ -1,6 +1,15 @@
 body {
   max-width: 2400px;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 img {
@@ -11,7 +20,7 @@ img {
 .pet {
   float: left;
   width: 600px;
-  margin: 10px;
+  margin: 20px;
   border: 2px solid lightgrey;
   padding: 20px;
   border-radius: 15px;
@@ -19,4 +28,8 @@ img {
 
 .info {
   float: right;
+}
+
+span {
+  font-weight: bold;
 }
