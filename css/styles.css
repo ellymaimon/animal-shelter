@@ -2,8 +2,14 @@ body {
   max-width: 2400px;
   margin: 0 auto 0 auto;
   font-family: sans-serif;
+  background-image: url("../img/corgi.png");
 }
 
+.header {
+  background-color: #fcb019;
+  color: white;
+  font-size: 25px;
+}
 h1 {
   text-align: center;
 }
@@ -12,9 +18,16 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 30px;
+  color: #007d82;
+  text-transform: uppercase;
+}
+
 img {
   width: 300px;
   height: 300px;
+  border: 2px solid crimson;
 }
 
 .pet {
@@ -24,6 +37,8 @@ img {
   border: 2px solid lightgrey;
   padding: 20px;
   border-radius: 15px;
+  background-color: white;
+  opacity: 0.9;
 }
 
 .info {
@@ -32,4 +47,31 @@ img {
 
 span {
   font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .pet {
+    float: none;
+    width: 600px;
+    margin: 20 auto 20 auto;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .pet {
+    text-align: center;
+    float: none;
+    width: 350px;
+    margin: 20 auto 20 auto;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .info {
+    text-align: center;
+    float: none;
+  }
 }
